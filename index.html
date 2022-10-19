@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    
+</head>
+<body>
+    
+    <div class="form">
+        <h1>Sign Up</h1>
+     <p>Name:</p>
+    <input placeholder="Enter your full name" type="text" id="name">
+    <p id="error1"></p>
+    <p>Email:</p>
+    <input placeholder="Enter your email address" type="text" id="email"> <br><br>
+    <p id="error2"></p>
+    <button onclick="submit()">Subscribe</button>
+    
+    </div>
+    <style>
+        body{
+            background-color: rgb(237, 240, 240);
+        }
+        .form{
+            margin-left: 450px;
+            margin-top: 80px;
+            background-color:white;
+            width: 400px;
+            height: 60vh;
+            padding-left: 80px;
+            border-radius: 8px;
+            box-shadow: 2px 2px rgb(223, 226, 227);
+        }
+        h1{
+          padding-left: 100px;
+          color: rgb(125, 124, 124);
+          font-weight: lighter;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+        }
+        button{
+            width: 310px; 
+            color: white;
+            background-color: rgb(100, 100, 250);
+            border: none;
+            height: 30px;
+            border-radius: 4px;
+        }
+        #error1 {
+            color: red;
+        }
+        #error2 {
+            color: red;
+        }
+    </style>
+
+
+<script src="index.js"></script>
+</body>
+</html>
